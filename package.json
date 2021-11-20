@@ -1,6 +1,6 @@
 {
   "name": "dbsl",
-  "version": "0.1.0-beta",
+  "version": "0.1.2-beta",
   "description": "Official dbsl.site API",
   "main": "./dist/index.js",
   "scripts": {
@@ -28,5 +28,13 @@
     "events": "^3.3.0",
     "express": "^4.17.1",
     "node-fetch": "^2.6.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANDM-17/dbsl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ANDM-17/dbsl/issues"
+  },
+  "homepage": "https://github.com/ANDM-17/dbsl#readme"
 }
