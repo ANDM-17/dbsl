@@ -28,7 +28,7 @@ const DBSL = require("dbsl");
 const client = new Client(); // - - discord.js v12 or v13 - -
 
 new DBSL.AutoPoster({client : client , token : "dbslToken"}).start(() => {
-  console.log("[DBSL] Successfully"); // - - Automatically checkes every (2) seconds - -
+  console.log("[DBSL] Successfully"); // - - Automatically checkes every (2) minute - -
   });
 let dbsl = new DBSL.Vote({url: "Domain Url", token: "dbslToken", port: 8080}).start(() => {
   console.log("[DBSL] Successfully started votes");

@@ -1,6 +1,6 @@
 {
   "name": "dbsl",
-  "version": "0.1.6-beta",
+  "version": "0.1.7-beta",
   "description": "Official dbsl.site API",
   "main": "./dist/index.js",
   "scripts": {
