@@ -1,8 +1,8 @@
 <div align="center">
   <h1>dbsl The Official dbsl.site API</h1>
     <p>
-    <a href="https://www.npmjs.com/package/anime-api"><img src="https://img.shields.io/npm/v/dbsl?maxAge=3600" alt="npm version" /></a>
-    <a href="https://www.npmjs.com/package/anime-api"><img src="https://img.shields.io/npm/dt/dbsl?maxAge=3600" alt="npm downloads" /></a>
+    <a href="https://www.npmjs.com/package/dbsl"><img src="https://img.shields.io/npm/v/dbsl?maxAge=3600" alt="npm version" /></a>
+    <a href="https://www.npmjs.com/package/dbsl"><img src="https://img.shields.io/npm/dt/dbsl?maxAge=3600" alt="npm downloads" /></a>
   </p>
   <p>
     <a href="https://www.npmjs.com/package/dbsl"><img src="https://nodei.co/npm/dbsl.png?downloads=true&stars=true" alt="npm banner"></a>
