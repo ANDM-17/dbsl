@@ -25,17 +25,22 @@ yarn add dbsl
 
 ```js
 const DBSL = require("dbsl");
-const client = new Client();//Discord.js v12 or v13
+const client = new Client(); // - - discord.js v12 or v13 - -
 
 new DBSL.AutoPoster({client : client , token : "dbslToken"}).start(() => {
-  console.log("Servers Count Has Posted Success")///interval every 2 minutes
+  console.log("[DBSL] Successfully"); // - - Automatically checkes every (2) seconds - -
   });
-let dbsl = new DBSL.Vote({url : "Domain Url", token : "dbslToken" , port : 8080}).start(() => {
-  console.log("Vote Has Started Success");
+let dbsl = new DBSL.Vote({url: "Domain Url", token: "dbslToken", port: 8080}).start(() => {
+  console.log("[DBSL] Successfully started votes");
 });
 
 dbsl.on("vote" , (vote) => {
-  console.log(vote);// outbut : {id : "userId" , votes : AllVotesCounts}
+  console.log(vote); /* OUTPUT: 
+    {
+      id: "123456789012345678", <-- USER ID
+      votes : AllVotesCounts
+    }
+*/
 });
 
 ```
