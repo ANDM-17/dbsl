@@ -1,6 +1,6 @@
 {
   "name": "dbsl",
-  "version": "0.1.5-beta",
+  "version": "0.1.6-beta",
   "description": "Official dbsl.site API",
   "main": "./dist/index.js",
   "scripts": {
@@ -8,15 +8,11 @@
   },
   "keywords": [
     "discord",
-    "discord",
+    "discord bots",
+    "discord bots support",
+    "bots support",
     "bots",
-    "discord",
-    "bots",
-    "support",
-    "bots",
-    "support",
-    "bots",
-    "list"
+    "bots list"
   ],
   "author": "ANDM",
   "license": "ISC",
